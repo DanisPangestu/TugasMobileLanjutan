@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+//script dibawah ini digunakan untuk mengatur tata letak serta padding yang kita buat untuk halaman login dengan menggunakan linier layout dan berorientasi horizontal
+//warna hutuf,tinggi ,lebar,text style serta marginnya
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
