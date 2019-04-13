@@ -29,6 +29,7 @@ public class View_Nama_Danis extends AppCompatActivity {
             R.drawable.coba4, R.drawable.coba3,
     };
     //script dibawah ini melakukan perintah untuk memperlihatkan bagian atas di layar aplikasi kita.serta melakukan toast jika bagian text/gambar disentuh
+    //serta menghubungkan java ini ke adapter_danis
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
