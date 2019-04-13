@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+//script dibawah digunakan untuk mengatur tata letak layout serta padding dan margin di main activity
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -8,48 +9,82 @@
     android:paddingRight="20dp"
     android:paddingTop="10dp"
     tools:context=".MainActivity">
-
+//script dibawah digunakan untuk  mengatur text view ,serta button yang ada di mainactivity
     <TextView
         android:text="Login Form"
+              //script untuk logon form text
         android:layout_width="match_parent"
+              //menyesuaikan lebar dan tinggi suatu tampilan sama dengan layar smart phone kita 
         android:layout_height="wrap_content"
+              //menyesuaikan ukuran lebar dan tinggi view berdasarkan objek yang ada di dalamnya
         android:layout_alignParentTop="true"
+              //menempatkan tampilan diatas tampilan
         android:layout_centerHorizontal="true"
+              //menempatkan tampilan di tengah tampilan secara horizontal
         android:id="@+id/textView"
+              //digunakan untuk memberikan kode unik untuk identifikasi suatu ScrollView dan memberikan sebuah id pada elemen dari layout XML untuk membedakan kegunaan masing-masing elemen
         android:textAlignment="center"
+              //menempatkan tampilan text di rata tenggah 
         android:textSize="30sp"
+              //membuat ukuran text menjadi 30 sp
         android:textStyle="normal|bold" />
+               //membuat text style menjadi normal dan tebal
 
     <EditText
         android:layout_width="match_parent"
+              //menyesuaikan lebar dan tinggi suatu tampilan sama dengan layar smart phone kita
         android:layout_height="wrap_content"
+              //menyesuaikan ukuran lebar dan tinggi view berdasarkan objek yang ada di dalamnya
         android:inputType="textPersonName"
+              //membuat inputan dengan type Teks yang akan sebagai nama orang
         android:ems="10"
+              //untuk membuat inputan hanya sampe 10 karakter
         android:id="@+id/username"
+              //digunakan untuk memberikan kode unik untuk identifikasi suatu ScrollView dan memberikan sebuah id pada elemen layout
         android:hint="Username"
+              //digunkan untuk memberikan petunjuk untuk mengisi
         android:layout_below="@+id/textView"
+              //digunakan untuk memberikan kode unik untuk identifikasi suatu ScrollView dan memberikan sebuah id pada elemen dari layout XML untuk membedakan kegunaan masing-masing elemen
         android:layout_alignParentLeft="true"
+              //digunakan untuk menempatkan tampilan di sisi kiri dari tampilan induk
         android:layout_alignParentStart="true"
+              //digunakan untuk menempatkan tampilan di posisi start dari tampilan induk
         android:layout_marginTop="37dp" />
+    //untuk mengatur margin top dengan nilai 37dp
 
     <EditText
         android:layout_width="match_parent"
+               //menyesuaikan lebar dan tinggi suatu tampilan sama dengan layar smart phone kita
         android:layout_height="wrap_content"
+              //menyesuaikan ukuran lebar dan tinggi view berdasarkan objek yang ada di dalamnya
         android:inputType="textPassword"
+              //Teks yang akan dipakai sebagai password dan dirahasiakan
         android:ems="10"
+              //panjang 10 karakter
         android:layout_below="@+id/username"
+              //digunakan untuk memberikan kode unik untuk identifikasi suatu ScrollView dan memberikan sebuah id pada elemen layout
         android:layout_alignParentLeft="true"
+              //digunakan untuk menempatkan tampilan di sisi kiri dari tampilan induk
         android:id="@+id/password"
+              /digunakan untuk memberikan kode unik untuk identifikasi suatu ScrollView dan memberikan sebuah id pada elemen layout
         android:layout_alignParentRight="true"
+              //digunakan untuk menempatkan tampilan di sisi kanan dari tampilan induk
         android:layout_alignParentEnd="true"
+              //digunakan untuk menempatkan tampilan di posisi akhir dari tampilan induk
         android:hint="Password" />
-
+                 //digunkan untuk memberikan petunjuk untuk mengisi
     <Button
         android:text="Log In"
+            //script untuk logon form text
         android:layout_width="match_parent"
+            //menyesuaikan lebar dan tinggi suatu tampilan sama dengan layar smart phone kita
         android:layout_height="wrap_content"
+            //menyesuaikan ukuran lebar dan tinggi view berdasarkan objek yang ada di dalamnya
         android:layout_below="@+id/password"
+            /digunakan untuk memberikan kode unik untuk identifikasi suatu ScrollView dan memberikan sebuah id pada elemen layout
         android:layout_centerHorizontal="true"
+            //digunakan untuk menempatkan tampilan atau widget di tengah tampilan induk secara horizontal
         android:id="@+id/btnLogin" />
-
+        /digunakan untuk memberikan kode unik untuk identifikasi suatu ScrollView dan memberikan sebuah id pada elemen layout
+//menggunakan layout ralative layout
 </RelativeLayout>
